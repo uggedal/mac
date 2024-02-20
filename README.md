@@ -14,6 +14,7 @@
 
    Install the following applications:
 
+   - Slack
    - Microsoft Word
    - Microsoft PowerPoint
    - Microsoft Excel
