@@ -14,6 +14,7 @@
 
    Install the following applications:
 
+   - Bitwarden
    - Slack
    - Microsoft Word
    - Microsoft PowerPoint
@@ -88,11 +89,13 @@ Add 2 more spaces
 - Settings
   - General
     - Safari opens with: all non-private windows from last session
+  - Extensions:
+    - Enable Bitwarden
   - Advanced
     - Smart search field: show full website address
     - Show features for web developers: enable
-  - View
-    - Show Status Bar
+- View
+  - Show Status Bar
 
 ### Mail
 
