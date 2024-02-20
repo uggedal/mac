@@ -7,6 +7,7 @@ ROOT=$(
 
 CONFIGS='
 	hammerspoon
+	zshrc
 '
 
 for f in $CONFIGS; do
