@@ -7,6 +7,7 @@ ROOT=$(
 
 CONFIGS='
 	hammerspoon
+	gitconfig
 	zshrc
 '
 

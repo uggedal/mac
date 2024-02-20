@@ -1,0 +1,29 @@
+[user]
+	name = Eivind Uggedal
+	email = eivind@uggedal.com
+[alias]
+	co = checkout
+	ci = commit -v
+	st = status --short --branch
+	cia = commit --amend --no-edit
+	cached = diff --cached
+[core]
+	abbrev = 12
+[push]
+	default = simple
+	followTags = true
+[pull]
+	rebase = true
+[log]
+	date = iso
+	abbrevCommit = true
+[diff]
+	tool = vimdiff
+[merge]
+	conflictstyle = zdiff3
+[status]
+	showUntrackedFiles = all
+[sendemail]
+	annotate = yes
+[url "git@github.com:vippsas/"]
+	insteadOf = https://github.com/vippsas/
