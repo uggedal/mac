@@ -1,0 +1,48 @@
+{
+  "entries": {
+    "cask": {
+      "hammerspoon": {
+        "version": "0.9.100",
+        "options": {
+          "full_name": "hammerspoon"
+        }
+      },
+      "microsoft-teams": {
+        "version": "24033.812.2721.9190",
+        "options": {
+          "full_name": "microsoft-teams"
+        }
+      },
+      "webex": {
+        "version": "44.3.0.28993",
+        "options": {
+          "full_name": "webex"
+        }
+      },
+      "figma": {
+        "version": "116.16.13",
+        "options": {
+          "full_name": "figma"
+        }
+      },
+      "firefox": {
+        "version": "123.0.1",
+        "options": {
+          "full_name": "firefox"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "sonoma": {
+        "HOMEBREW_VERSION": "4.2.12",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "api",
+        "CLT": "15.3.0.0.1.1708646388",
+        "Xcode": "15.1",
+        "macOS": "14.4"
+      }
+    }
+  }
+}
