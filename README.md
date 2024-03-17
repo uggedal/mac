@@ -146,6 +146,18 @@ Add 2 more spaces
     - /Applications
     - /Library
 
+### Firefox
+
+- Settings:
+  - General:
+    - Startup:
+      - Open previous windows and tabs: enable
+  - Search:
+      - Default search engine: DuckDuckGo
+- Add Extensions:
+  - Bitwarden
+  - uBlock Origin
+
 ## Uninstall unneeded apps
 
 - Garageband
