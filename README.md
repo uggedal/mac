@@ -75,15 +75,6 @@
 
 Add 2 more spaces
 
-### Terminal
-
-- Settings:
-  - Profiles:
-    - Text:
-      - Font: SF Mono 12
-    - Shell:
-      - When the shell exits: Close if the shell exited cleanly
-
 ### Safari
 
 - Settings
@@ -145,6 +136,15 @@ Add 2 more spaces
     - /opt
     - /Applications
     - /Library
+
+### iTerm2
+
+- Settings
+  - Profiles
+    - Colors
+      - Color presets:
+        - Import and select [github_light_default](https://raw.githubusercontent.com/projekt0n/github-theme-contrib/main/themes/iterm/github_light_default.itermcolors)
+   - Text: Jetbrains Mono Nerd Font 12
 
 ### Firefox
 

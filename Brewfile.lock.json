@@ -30,6 +30,18 @@
         "options": {
           "full_name": "firefox"
         }
+      },
+      "iterm2": {
+        "version": "3.4.23",
+        "options": {
+          "full_name": "iterm2"
+        }
+      },
+      "font-jetbrains-mono-nerd-font": {
+        "version": "3.1.1",
+        "options": {
+          "full_name": "font-jetbrains-mono-nerd-font"
+        }
       }
     },
     "brew": {
@@ -120,6 +132,11 @@
             }
           }
         }
+      }
+    },
+    "tap": {
+      "homebrew/cask-fonts": {
+        "revision": "65284d1499907bf99f5437e43b77dd17b58078de"
       }
     }
   },
