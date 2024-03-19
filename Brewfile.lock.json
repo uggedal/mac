@@ -20,7 +20,7 @@
         }
       },
       "figma": {
-        "version": "116.16.13",
+        "version": "116.17.11",
         "options": {
           "full_name": "figma"
         }
@@ -136,14 +136,14 @@
     },
     "tap": {
       "homebrew/cask-fonts": {
-        "revision": "65284d1499907bf99f5437e43b77dd17b58078de"
+        "revision": "44a579d41aa4295a9bfa71c197e997eca9a6d72b"
       }
     }
   },
   "system": {
     "macos": {
       "sonoma": {
-        "HOMEBREW_VERSION": "4.2.12",
+        "HOMEBREW_VERSION": "4.2.13",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.3.0.0.1.1708646388",
