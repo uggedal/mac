@@ -36,6 +36,7 @@
    - Play sound for notifications: disable:
      - Calendar
      - FaceTime
+     - Mail
      - Messages
      - Notes
      - Reminders
@@ -48,7 +49,6 @@
 
 4. Control Center
 
-   - Bluetooth: Show in Menu Bar
    - Sound: Always show in Menu Bar
 
 5. Privacy & Security
@@ -66,19 +66,24 @@
      - Night Shift
        - Subset to Sunrise
 
-7. Touch ID & Password
+7. Wallpaper
 
-    Setup fingerprint
+   - Dynamic Wallpaper: Sonoma Dark
+
+8. Touch ID & Password
+
+   - Setup fingerprint
 
 ### Mission Control
 
-Add 2 more spaces
+Add 2 more spaces.
 
 ### Safari
 
 - Settings
   - General
     - Safari opens with: all non-private windows from last session
+    - Homepage: about:blank
   - Advanced
     - Smart search field: show full website address
     - Show features for web developers: enable
