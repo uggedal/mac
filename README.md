@@ -155,7 +155,9 @@ Add 2 more spaces.
     - Startup:
       - Open previous windows and tabs: enable
   - Search:
-      - Default search engine: DuckDuckGo
+    - Default search engine: DuckDuckGo
+  - Privacy & Security:
+    - Ask to save passwords: disable
 - Add Extensions:
   - Bitwarden
   - uBlock Origin
