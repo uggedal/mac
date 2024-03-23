@@ -16,3 +16,8 @@ brew 'jq'
 brew 'neovim'
 brew 'ripgrep'
 brew 'tmux'
+
+brew 'colima'
+brew 'docker'
+brew 'docker-compose'
+brew 'go@1.21'
