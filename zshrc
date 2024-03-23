@@ -32,6 +32,11 @@ if command -v git >/dev/null; then
 	alias gl='git pull'
 fi
 
+if command -v nvim >/dev/null; then
+	alias vi=nvim
+	alias vim=nvim
+fi
+
 # List files in one column, classify file types, print human sizes,
 # and use ISO date:
 alias ls='ls -1FhD %Y-%m-%d\ %H:%M'
