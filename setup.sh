@@ -8,6 +8,7 @@ ROOT=$(
 CONFIGS='
 	hammerspoon
 	gitconfig
+	tmux.conf
 	zshrc
 '
 
@@ -17,6 +18,11 @@ for f in $CONFIGS; do
 		ln -vs "$ROOT/$f" ~/."$f"
 	fi
 done
+
+if ! [ -d ~/.config/nvim/.git ]; then
+	mkdir -p ~/.config
+	git clone git@github.com:uggedal/nvim-config ~/.config/nvim
+fi
 
 # Dock changes:
 # - position to the bottom
