@@ -12,3 +12,7 @@ cask 'font-jetbrains-mono-nerd-font'
 
 brew 'azure-cli'
 brew 'jq'
+
+brew 'neovim'
+brew 'ripgrep'
+brew 'tmux'
