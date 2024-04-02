@@ -6,6 +6,7 @@ PROMPT='%~ '
 
 # Sane long history (except for cmds beginning with space or dupes):
 setopt HIST_IGNORE_SPACE
+setopt HIST_IGNORE_ALL_DUPS
 HISTSIZE=100000
 SAVEHIST=$HISTSIZE
 
