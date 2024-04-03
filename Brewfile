@@ -22,3 +22,5 @@ brew 'docker'
 brew 'docker-compose'
 brew 'go'
 brew 'gopls'
+
+cask 'goland'
