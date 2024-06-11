@@ -158,9 +158,14 @@ Add 2 more spaces.
     - Default search engine: DuckDuckGo
   - Privacy & Security:
     - Ask to save passwords: disable
+  - Network Settings:
+    - Socks Host: 127.0.0.1:1008
+    - Proxy DNS when using SOCKS5: enable
 - Add Extensions:
   - Bitwarden
   - uBlock Origin
+
+Start ssh sock proxy: `ssh -NL 1080:127.0.0.1:1080 r.eju.no -p 20202`.
 
 ## Uninstall unneeded apps
 
