@@ -15,6 +15,7 @@
    Install the following applications:
 
    - Slack
+   - Amphetamine
    - Microsoft Word
    - Microsoft PowerPoint
    - Microsoft Excel
