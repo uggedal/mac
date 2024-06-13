@@ -6,7 +6,6 @@ ROOT=$(
 )
 
 CONFIGS='
-	hammerspoon
 	gitconfig
 	tmux.conf
 	zshrc
@@ -19,20 +18,20 @@ for f in $CONFIGS; do
 	fi
 done
 
-mkdir -p ~/.docker
+#mkdir -p ~/.docker
 
-cat <<'EOF'> ~/.docker/config.json
-{
-  "cliPluginsExtraDirs": [
-    "/opt/homebrew/lib/docker/cli-plugins"
-  ]
-}
-EOF
+#cat <<'EOF'> ~/.docker/config.json
+#{
+#  "cliPluginsExtraDirs": [
+#    "/opt/homebrew/lib/docker/cli-plugins"
+#  ]
+#}
+#EOF
 
-if ! [ -d ~/.config/nvim/.git ]; then
-	mkdir -p ~/.config
-	git clone git@github.com:uggedal/nvim-config ~/.config/nvim
-fi
+#if ! [ -d ~/.config/nvim/.git ]; then
+#	mkdir -p ~/.config
+#	git clone git@github.com:uggedal/nvim-config ~/.config/nvim
+#fi
 
 # Dock changes:
 # - position to the bottom

@@ -1,26 +1,18 @@
-cask 'hammerspoon'
-
 cask 'microsoft-teams'
-cask 'webex'
-cask 'figma'
+#cask 'webex'
+#cask 'figma'
 
-cask 'iterm2'
-cask 'firefox'
+#brew 'azure-cli'
+#brew 'jq'
 
-tap 'homebrew/cask-fonts'
-cask 'font-jetbrains-mono-nerd-font'
-
-brew 'azure-cli'
-brew 'jq'
-
-brew 'neovim'
+#brew 'neovim'
 brew 'ripgrep'
 brew 'tmux'
 
-brew 'colima'
-brew 'docker'
-brew 'docker-compose'
-brew 'go'
-brew 'gopls'
+#brew 'colima'
+#brew 'docker'
+#brew 'docker-compose'
+#brew 'go'
+#brew 'gopls'
 
-cask 'goland'
+#cask 'goland'

@@ -18,7 +18,6 @@
    - Microsoft Word
    - Microsoft PowerPoint
    - Microsoft Excel
-   - Microsoft Outlook
 
 ## GUI Settings
 
@@ -30,7 +29,21 @@
      - Options
        - Connect to This Mac: When Last Connected to This Mac
 
-2. Notifications
+2. Control Center
+
+   - Sound: Always show in Menu Bar
+
+3. Displays
+
+   - For internal and external displays
+     - Night Shift
+       - Subset to Sunrise
+
+4. Wallpaper
+
+   - Dynamic Wallpaper: macOS Beta
+
+5. Notifications
 
    - Allow notifications when the screen is locked: disable
    - Play sound for notifications: disable:
@@ -42,33 +55,17 @@
      - Reminders
      - Wallet
 
-3. Sound
+6. Sound
 
    - Play sound on startup: disable
    - Play user interface sound effects: disable
 
-4. Control Center
-
-   - Sound: Always show in Menu Bar
-
-5. Privacy & Security
+7. Privacy & Security
 
    - Privacy
-     - Accessibility
-       - Hammerspoon: enable
      - Screen recording:
        - Microsoft Teams: enable
        - Webex: enable
-
-6. Displays
-
-   - For internal and external displays
-     - Night Shift
-       - Subset to Sunrise
-
-7. Wallpaper
-
-   - Dynamic Wallpaper: Sonoma Dark
 
 8. Touch ID & Password
 
@@ -98,31 +95,10 @@ Add 2 more spaces.
 
 ### Calendar
 
+- General:
+  - Show: 10 hours at a time
 - Advanced:
   - Show week numbers: enable
-
-### Hammerspoon
-
-- Preferences:
-  - Launch Hammerspoon at login: enable
-
-### Outlook
-
-- Settings
-  - General
-    - Density preference: Compact
-    - Text display size: Smaller
-  - Notifications and Sounds
-    - For new messages: disable
-    - Event reminder style: MacOS notification center
-    - Sounds: disable all
-  - Calendar
-    - Show week numbers: enable
-    - Show current weather on calendar: disable
-  - My Day
-    - Choose view: Day View
-- Customize toolbar
-  - Add Cisco Webex Scheduler to main bar
 
 ### Cisco Webex
 
@@ -139,33 +115,12 @@ Add 2 more spaces.
     - /Applications
     - /Library
 
-### iTerm2
+### Terminal
 
 - Settings
   - Profiles
-    - Colors
-      - Color presets:
-        - Import and select [github_light_default](https://raw.githubusercontent.com/projekt0n/github-theme-contrib/main/themes/iterm/github_light_default.itermcolors)
-   - Text: Jetbrains Mono Nerd Font 12
-
-### Firefox
-
-- Settings:
-  - General:
-    - Startup:
-      - Open previous windows and tabs: enable
-  - Search:
-    - Default search engine: DuckDuckGo
-  - Privacy & Security:
-    - Ask to save passwords: disable
-  - Network Settings:
-    - Socks Host: 127.0.0.1:1008
-    - Proxy DNS when using SOCKS5: enable
-- Add Extensions:
-  - Bitwarden
-  - uBlock Origin
-
-Start ssh sock proxy: `ssh -NL 1080:127.0.0.1:1080 r.eju.no -p 20202`.
+    - Shell
+      - When the shell exists: close if the shell exited cleanly
 
 ## Uninstall unneeded apps
 
