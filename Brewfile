@@ -16,3 +16,5 @@ brew 'tmux'
 #brew 'gopls'
 
 #cask 'goland'
+
+cask 'utm'
